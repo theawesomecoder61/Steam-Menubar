@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0B20F31D3192D000011E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B20F21D3192D000011E2E /* AppDelegate.m */; };
+		4A0B20F61D3192D000011E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B20F51D3192D000011E2E /* main.m */; };
+		4A0B20F81D3192D000011E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B20F71D3192D000011E2E /* Assets.xcassets */; };
+		4A0B20FB1D3192D000011E2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B20F91D3192D000011E2E /* MainMenu.xib */; };
+		4A0B21061D3192D000011E2E /* Steam_MenubarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21051D3192D000011E2E /* Steam_MenubarTests.m */; };
+		4A0B21111D3192D000011E2E /* Steam_MenubarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21101D3192D000011E2E /* Steam_MenubarUITests.m */; };
+		4A0B21271D3195FE00011E2E /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B211F1D3195FE00011E2E /* MASPreferencesWindow.xib */; };
+		4A0B21281D3195FE00011E2E /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21211D3195FE00011E2E /* MASPreferencesWindowController.m */; };
+		4A0B21291D3195FE00011E2E /* GeneralTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21241D3195FE00011E2E /* GeneralTab.m */; };
+		4A0B212A1D3195FE00011E2E /* GeneralTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21251D3195FE00011E2E /* GeneralTab.xib */; };
+		4A0B21331D31E3AA00011E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21321D31E3AA00011E2E /* AppDelegate.m */; };
+		4A0B21361D31E3AA00011E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21351D31E3AA00011E2E /* main.m */; };
+		4A0B21381D31E3AA00011E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21371D31E3AA00011E2E /* Assets.xcassets */; };
+		4A0B213B1D31E3AA00011E2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21391D31E3AA00011E2E /* MainMenu.xib */; };
+		4A0B21461D31E3AA00011E2E /* Steam_Menubar_HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21451D31E3AA00011E2E /* Steam_Menubar_HelperTests.m */; };
+		4A0B21511D31E3AA00011E2E /* Steam_Menubar_HelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21501D31E3AA00011E2E /* Steam_Menubar_HelperUITests.m */; };
+		4A0B215D1D31E3CA00011E2E /* Steam Menubar Helper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A0B212F1D31E3AA00011E2E /* Steam Menubar Helper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A0B215F1D31E4D600011E2E /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B215E1D31E4D600011E2E /* ServiceManagement.framework */; };
+		4A0B21641D31E9D300011E2E /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21621D31E9D300011E2E /* XMLDictionary.m */; };
+		4A0B21681D31E9F600011E2E /* FavoritesTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B21661D31E9F600011E2E /* FavoritesTab.m */; };
+		4A0B21691D31E9F600011E2E /* FavoritesTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21671D31E9F600011E2E /* FavoritesTab.xib */; };
+		4A0B216E1D31EFED00011E2E /* DCOAboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B216B1D31EFED00011E2E /* DCOAboutWindow.xib */; };
+		4A0B216F1D31EFED00011E2E /* DCOAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B216D1D31EFED00011E2E /* DCOAboutWindowController.m */; };
+		4A0B21711D31F08800011E2E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21701D31F08800011E2E /* Credits.rtf */; };
+		4A0B21731D31F1BC00011E2E /* Acknowledgments.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B21721D31F1BC00011E2E /* Acknowledgments.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0B21021D3192D000011E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B20E61D3192D000011E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B20ED1D3192D000011E2E;
+			remoteInfo = "Steam Menubar";
+		};
+		4A0B210D1D3192D000011E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B20E61D3192D000011E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B20ED1D3192D000011E2E;
+			remoteInfo = "Steam Menubar";
+		};
+		4A0B21421D31E3AA00011E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B20E61D3192D000011E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B212E1D31E3AA00011E2E;
+			remoteInfo = "Steam Menubar Helper";
+		};
+		4A0B214D1D31E3AA00011E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0B20E61D3192D000011E2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0B212E1D31E3AA00011E2E;
+			remoteInfo = "Steam Menubar Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A0B215C1D31E3C500011E2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				4A0B215D1D31E3CA00011E2E /* Steam Menubar Helper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A0B20EE1D3192D000011E2E /* Steam Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steam Menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B20F11D3192D000011E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0B20F21D3192D000011E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0B20F51D3192D000011E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0B20F71D3192D000011E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0B20FA1D3192D000011E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A0B20FC1D3192D000011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B21011D3192D000011E2E /* Steam MenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam MenubarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B21051D3192D000011E2E /* Steam_MenubarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steam_MenubarTests.m; sourceTree = "<group>"; };
+		4A0B21071D3192D000011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B210C1D3192D000011E2E /* Steam MenubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam MenubarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B21101D3192D000011E2E /* Steam_MenubarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steam_MenubarUITests.m; sourceTree = "<group>"; };
+		4A0B21121D3192D000011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B211E1D3195FE00011E2E /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		4A0B211F1D3195FE00011E2E /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		4A0B21201D3195FE00011E2E /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		4A0B21211D3195FE00011E2E /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		4A0B21231D3195FE00011E2E /* GeneralTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralTab.h; sourceTree = "<group>"; };
+		4A0B21241D3195FE00011E2E /* GeneralTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralTab.m; sourceTree = "<group>"; };
+		4A0B21251D3195FE00011E2E /* GeneralTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralTab.xib; sourceTree = "<group>"; };
+		4A0B212F1D31E3AA00011E2E /* Steam Menubar Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steam Menubar Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B21311D31E3AA00011E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0B21321D31E3AA00011E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0B21351D31E3AA00011E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0B21371D31E3AA00011E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0B213A1D31E3AA00011E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A0B213C1D31E3AA00011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B21411D31E3AA00011E2E /* Steam Menubar HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam Menubar HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B21451D31E3AA00011E2E /* Steam_Menubar_HelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steam_Menubar_HelperTests.m; sourceTree = "<group>"; };
+		4A0B21471D31E3AA00011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B214C1D31E3AA00011E2E /* Steam Menubar HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Steam Menubar HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0B21501D31E3AA00011E2E /* Steam_Menubar_HelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steam_Menubar_HelperUITests.m; sourceTree = "<group>"; };
+		4A0B21521D31E3AA00011E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0B215E1D31E4D600011E2E /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		4A0B21611D31E9D300011E2E /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		4A0B21621D31E9D300011E2E /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		4A0B21651D31E9F600011E2E /* FavoritesTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTab.h; sourceTree = "<group>"; };
+		4A0B21661D31E9F600011E2E /* FavoritesTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTab.m; sourceTree = "<group>"; };
+		4A0B21671D31E9F600011E2E /* FavoritesTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesTab.xib; sourceTree = "<group>"; };
+		4A0B216B1D31EFED00011E2E /* DCOAboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DCOAboutWindow.xib; sourceTree = "<group>"; };
+		4A0B216C1D31EFED00011E2E /* DCOAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCOAboutWindowController.h; sourceTree = "<group>"; };
+		4A0B216D1D31EFED00011E2E /* DCOAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCOAboutWindowController.m; sourceTree = "<group>"; };
+		4A0B21701D31F08800011E2E /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		4A0B21721D31F1BC00011E2E /* Acknowledgments.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Acknowledgments.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0B20EB1D3192D000011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B215F1D31E4D600011E2E /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B20FE1D3192D000011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B21091D3192D000011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B212C1D31E3AA00011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B213E1D31E3AA00011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B21491D31E3AA00011E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0B20E51D3192D000011E2E = {
+			isa = PBXGroup;
+			children = (
+				4A0B20F01D3192D000011E2E /* Steam Menubar */,
+				4A0B21041D3192D000011E2E /* Steam MenubarTests */,
+				4A0B210F1D3192D000011E2E /* Steam MenubarUITests */,
+				4A0B21301D31E3AA00011E2E /* Steam Menubar Helper */,
+				4A0B21441D31E3AA00011E2E /* Steam Menubar HelperTests */,
+				4A0B214F1D31E3AA00011E2E /* Steam Menubar HelperUITests */,
+				4A0B21601D31E4D800011E2E /* Frameworks */,
+				4A0B20EF1D3192D000011E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0B20EF1D3192D000011E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B20EE1D3192D000011E2E /* Steam Menubar.app */,
+				4A0B21011D3192D000011E2E /* Steam MenubarTests.xctest */,
+				4A0B210C1D3192D000011E2E /* Steam MenubarUITests.xctest */,
+				4A0B212F1D31E3AA00011E2E /* Steam Menubar Helper.app */,
+				4A0B21411D31E3AA00011E2E /* Steam Menubar HelperTests.xctest */,
+				4A0B214C1D31E3AA00011E2E /* Steam Menubar HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0B20F01D3192D000011E2E /* Steam Menubar */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B216A1D31EFED00011E2E /* DCOAboutWindow */,
+				4A0B21221D3195FE00011E2E /* MASPreferences */,
+				4A0B21261D3195FE00011E2E /* PrefsPanes */,
+				4A0B21631D31E9D300011E2E /* XMLDictionary */,
+				4A0B20F11D3192D000011E2E /* AppDelegate.h */,
+				4A0B20F21D3192D000011E2E /* AppDelegate.m */,
+				4A0B20F91D3192D000011E2E /* MainMenu.xib */,
+				4A0B20F71D3192D000011E2E /* Assets.xcassets */,
+				4A0B20FC1D3192D000011E2E /* Info.plist */,
+				4A0B20F41D3192D000011E2E /* Supporting Files */,
+			);
+			path = "Steam Menubar";
+			sourceTree = "<group>";
+		};
+		4A0B20F41D3192D000011E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21721D31F1BC00011E2E /* Acknowledgments.rtf */,
+				4A0B21701D31F08800011E2E /* Credits.rtf */,
+				4A0B20F51D3192D000011E2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0B21041D3192D000011E2E /* Steam MenubarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21051D3192D000011E2E /* Steam_MenubarTests.m */,
+				4A0B21071D3192D000011E2E /* Info.plist */,
+			);
+			path = "Steam MenubarTests";
+			sourceTree = "<group>";
+		};
+		4A0B210F1D3192D000011E2E /* Steam MenubarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21101D3192D000011E2E /* Steam_MenubarUITests.m */,
+				4A0B21121D3192D000011E2E /* Info.plist */,
+			);
+			path = "Steam MenubarUITests";
+			sourceTree = "<group>";
+		};
+		4A0B21221D3195FE00011E2E /* MASPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B211E1D3195FE00011E2E /* MASPreferencesViewController.h */,
+				4A0B211F1D3195FE00011E2E /* MASPreferencesWindow.xib */,
+				4A0B21201D3195FE00011E2E /* MASPreferencesWindowController.h */,
+				4A0B21211D3195FE00011E2E /* MASPreferencesWindowController.m */,
+			);
+			name = MASPreferences;
+			path = "../../GMod Workshop Stats/GMod Workshop Stats/MASPreferences";
+			sourceTree = "<group>";
+		};
+		4A0B21261D3195FE00011E2E /* PrefsPanes */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21231D3195FE00011E2E /* GeneralTab.h */,
+				4A0B21241D3195FE00011E2E /* GeneralTab.m */,
+				4A0B21251D3195FE00011E2E /* GeneralTab.xib */,
+				4A0B21651D31E9F600011E2E /* FavoritesTab.h */,
+				4A0B21661D31E9F600011E2E /* FavoritesTab.m */,
+				4A0B21671D31E9F600011E2E /* FavoritesTab.xib */,
+			);
+			name = PrefsPanes;
+			path = "../../GMod Workshop Stats/GMod Workshop Stats/PrefsPanes";
+			sourceTree = "<group>";
+		};
+		4A0B21301D31E3AA00011E2E /* Steam Menubar Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21311D31E3AA00011E2E /* AppDelegate.h */,
+				4A0B21321D31E3AA00011E2E /* AppDelegate.m */,
+				4A0B21371D31E3AA00011E2E /* Assets.xcassets */,
+				4A0B21391D31E3AA00011E2E /* MainMenu.xib */,
+				4A0B213C1D31E3AA00011E2E /* Info.plist */,
+				4A0B21341D31E3AA00011E2E /* Supporting Files */,
+			);
+			path = "Steam Menubar Helper";
+			sourceTree = "<group>";
+		};
+		4A0B21341D31E3AA00011E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21351D31E3AA00011E2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0B21441D31E3AA00011E2E /* Steam Menubar HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21451D31E3AA00011E2E /* Steam_Menubar_HelperTests.m */,
+				4A0B21471D31E3AA00011E2E /* Info.plist */,
+			);
+			path = "Steam Menubar HelperTests";
+			sourceTree = "<group>";
+		};
+		4A0B214F1D31E3AA00011E2E /* Steam Menubar HelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21501D31E3AA00011E2E /* Steam_Menubar_HelperUITests.m */,
+				4A0B21521D31E3AA00011E2E /* Info.plist */,
+			);
+			path = "Steam Menubar HelperUITests";
+			sourceTree = "<group>";
+		};
+		4A0B21601D31E4D800011E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B215E1D31E4D600011E2E /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0B21631D31E9D300011E2E /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B21611D31E9D300011E2E /* XMLDictionary.h */,
+				4A0B21621D31E9D300011E2E /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			path = "/Users/AndrewM/Downloads/XMLDictionary-master/Tests/../XMLDictionary";
+			sourceTree = "<absolute>";
+		};
+		4A0B216A1D31EFED00011E2E /* DCOAboutWindow */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B216B1D31EFED00011E2E /* DCOAboutWindow.xib */,
+				4A0B216C1D31EFED00011E2E /* DCOAboutWindowController.h */,
+				4A0B216D1D31EFED00011E2E /* DCOAboutWindowController.m */,
+			);
+			name = DCOAboutWindow;
+			path = "../../GMod Workshop Stats/GMod Workshop Stats/DCOAboutWindow";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0B20ED1D3192D000011E2E /* Steam Menubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B21151D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar" */;
+			buildPhases = (
+				4A0B20EA1D3192D000011E2E /* Sources */,
+				4A0B20EB1D3192D000011E2E /* Frameworks */,
+				4A0B20EC1D3192D000011E2E /* Resources */,
+				4A0B215C1D31E3C500011E2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steam Menubar";
+			productName = "Steam Menubar";
+			productReference = 4A0B20EE1D3192D000011E2E /* Steam Menubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0B21001D3192D000011E2E /* Steam MenubarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B21181D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam MenubarTests" */;
+			buildPhases = (
+				4A0B20FD1D3192D000011E2E /* Sources */,
+				4A0B20FE1D3192D000011E2E /* Frameworks */,
+				4A0B20FF1D3192D000011E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B21031D3192D000011E2E /* PBXTargetDependency */,
+			);
+			name = "Steam MenubarTests";
+			productName = "Steam MenubarTests";
+			productReference = 4A0B21011D3192D000011E2E /* Steam MenubarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0B210B1D3192D000011E2E /* Steam MenubarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B211B1D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam MenubarUITests" */;
+			buildPhases = (
+				4A0B21081D3192D000011E2E /* Sources */,
+				4A0B21091D3192D000011E2E /* Frameworks */,
+				4A0B210A1D3192D000011E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B210E1D3192D000011E2E /* PBXTargetDependency */,
+			);
+			name = "Steam MenubarUITests";
+			productName = "Steam MenubarUITests";
+			productReference = 4A0B210C1D3192D000011E2E /* Steam MenubarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A0B212E1D31E3AA00011E2E /* Steam Menubar Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B21591D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar Helper" */;
+			buildPhases = (
+				4A0B212B1D31E3AA00011E2E /* Sources */,
+				4A0B212C1D31E3AA00011E2E /* Frameworks */,
+				4A0B212D1D31E3AA00011E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steam Menubar Helper";
+			productName = "Steam Menubar Helper";
+			productReference = 4A0B212F1D31E3AA00011E2E /* Steam Menubar Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0B21401D31E3AA00011E2E /* Steam Menubar HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B215A1D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar HelperTests" */;
+			buildPhases = (
+				4A0B213D1D31E3AA00011E2E /* Sources */,
+				4A0B213E1D31E3AA00011E2E /* Frameworks */,
+				4A0B213F1D31E3AA00011E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B21431D31E3AA00011E2E /* PBXTargetDependency */,
+			);
+			name = "Steam Menubar HelperTests";
+			productName = "Steam Menubar HelperTests";
+			productReference = 4A0B21411D31E3AA00011E2E /* Steam Menubar HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0B214B1D31E3AA00011E2E /* Steam Menubar HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0B215B1D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar HelperUITests" */;
+			buildPhases = (
+				4A0B21481D31E3AA00011E2E /* Sources */,
+				4A0B21491D31E3AA00011E2E /* Frameworks */,
+				4A0B214A1D31E3AA00011E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0B214E1D31E3AA00011E2E /* PBXTargetDependency */,
+			);
+			name = "Steam Menubar HelperUITests";
+			productName = "Steam Menubar HelperUITests";
+			productReference = 4A0B214C1D31E3AA00011E2E /* Steam Menubar HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0B20E61D3192D000011E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrew Mellen";
+				TargetAttributes = {
+					4A0B20ED1D3192D000011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V2N5QPY6NQ;
+					};
+					4A0B21001D3192D000011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0B20ED1D3192D000011E2E;
+					};
+					4A0B210B1D3192D000011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0B20ED1D3192D000011E2E;
+					};
+					4A0B212E1D31E3AA00011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V2N5QPY6NQ;
+					};
+					4A0B21401D31E3AA00011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0B212E1D31E3AA00011E2E;
+					};
+					4A0B214B1D31E3AA00011E2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A0B212E1D31E3AA00011E2E;
+					};
+				};
+			};
+			buildConfigurationList = 4A0B20E91D3192D000011E2E /* Build configuration list for PBXProject "Steam Menubar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0B20E51D3192D000011E2E;
+			productRefGroup = 4A0B20EF1D3192D000011E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0B20ED1D3192D000011E2E /* Steam Menubar */,
+				4A0B21001D3192D000011E2E /* Steam MenubarTests */,
+				4A0B210B1D3192D000011E2E /* Steam MenubarUITests */,
+				4A0B212E1D31E3AA00011E2E /* Steam Menubar Helper */,
+				4A0B21401D31E3AA00011E2E /* Steam Menubar HelperTests */,
+				4A0B214B1D31E3AA00011E2E /* Steam Menubar HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0B20EC1D3192D000011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B212A1D3195FE00011E2E /* GeneralTab.xib in Resources */,
+				4A0B20F81D3192D000011E2E /* Assets.xcassets in Resources */,
+				4A0B20FB1D3192D000011E2E /* MainMenu.xib in Resources */,
+				4A0B21731D31F1BC00011E2E /* Acknowledgments.rtf in Resources */,
+				4A0B21691D31E9F600011E2E /* FavoritesTab.xib in Resources */,
+				4A0B216E1D31EFED00011E2E /* DCOAboutWindow.xib in Resources */,
+				4A0B21711D31F08800011E2E /* Credits.rtf in Resources */,
+				4A0B21271D3195FE00011E2E /* MASPreferencesWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B20FF1D3192D000011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B210A1D3192D000011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B212D1D31E3AA00011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21381D31E3AA00011E2E /* Assets.xcassets in Resources */,
+				4A0B213B1D31E3AA00011E2E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B213F1D31E3AA00011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B214A1D31E3AA00011E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0B20EA1D3192D000011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21641D31E9D300011E2E /* XMLDictionary.m in Sources */,
+				4A0B21291D3195FE00011E2E /* GeneralTab.m in Sources */,
+				4A0B20F61D3192D000011E2E /* main.m in Sources */,
+				4A0B21281D3195FE00011E2E /* MASPreferencesWindowController.m in Sources */,
+				4A0B216F1D31EFED00011E2E /* DCOAboutWindowController.m in Sources */,
+				4A0B20F31D3192D000011E2E /* AppDelegate.m in Sources */,
+				4A0B21681D31E9F600011E2E /* FavoritesTab.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B20FD1D3192D000011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21061D3192D000011E2E /* Steam_MenubarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B21081D3192D000011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21111D3192D000011E2E /* Steam_MenubarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B212B1D31E3AA00011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21361D31E3AA00011E2E /* main.m in Sources */,
+				4A0B21331D31E3AA00011E2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B213D1D31E3AA00011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21461D31E3AA00011E2E /* Steam_Menubar_HelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0B21481D31E3AA00011E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0B21511D31E3AA00011E2E /* Steam_Menubar_HelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0B21031D3192D000011E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B20ED1D3192D000011E2E /* Steam Menubar */;
+			targetProxy = 4A0B21021D3192D000011E2E /* PBXContainerItemProxy */;
+		};
+		4A0B210E1D3192D000011E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B20ED1D3192D000011E2E /* Steam Menubar */;
+			targetProxy = 4A0B210D1D3192D000011E2E /* PBXContainerItemProxy */;
+		};
+		4A0B21431D31E3AA00011E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B212E1D31E3AA00011E2E /* Steam Menubar Helper */;
+			targetProxy = 4A0B21421D31E3AA00011E2E /* PBXContainerItemProxy */;
+		};
+		4A0B214E1D31E3AA00011E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0B212E1D31E3AA00011E2E /* Steam Menubar Helper */;
+			targetProxy = 4A0B214D1D31E3AA00011E2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0B20F91D3192D000011E2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0B20FA1D3192D000011E2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4A0B21391D31E3AA00011E2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0B213A1D31E3AA00011E2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0B21131D3192D000011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A0B21141D3192D000011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A0B21161D3192D000011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A0B21171D3192D000011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A0B21191D3192D000011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam MenubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-MenubarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Menubar.app/Contents/MacOS/Steam Menubar";
+			};
+			name = Debug;
+		};
+		4A0B211A1D3192D000011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam MenubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-MenubarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Menubar.app/Contents/MacOS/Steam Menubar";
+			};
+			name = Release;
+		};
+		4A0B211C1D3192D000011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam MenubarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-MenubarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Steam Menubar";
+			};
+			name = Debug;
+		};
+		4A0B211D1D3192D000011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam MenubarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-MenubarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Steam Menubar";
+			};
+			name = Release;
+		};
+		4A0B21531D31E3AA00011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4A0B21541D31E3AA00011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A0B21551D31E3AA00011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Menubar Helper.app/Contents/MacOS/Steam Menubar Helper";
+			};
+			name = Debug;
+		};
+		4A0B21561D31E3AA00011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar HelperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Steam Menubar Helper.app/Contents/MacOS/Steam Menubar Helper";
+			};
+			name = Release;
+		};
+		4A0B21571D31E3AA00011E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar HelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Steam Menubar Helper";
+			};
+			name = Debug;
+		};
+		4A0B21581D31E3AA00011E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Steam Menubar HelperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theawesomecoder61.Steam-Menubar-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Steam Menubar Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0B20E91D3192D000011E2E /* Build configuration list for PBXProject "Steam Menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21131D3192D000011E2E /* Debug */,
+				4A0B21141D3192D000011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B21151D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21161D3192D000011E2E /* Debug */,
+				4A0B21171D3192D000011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B21181D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam MenubarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21191D3192D000011E2E /* Debug */,
+				4A0B211A1D3192D000011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B211B1D3192D000011E2E /* Build configuration list for PBXNativeTarget "Steam MenubarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B211C1D3192D000011E2E /* Debug */,
+				4A0B211D1D3192D000011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0B21591D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21531D31E3AA00011E2E /* Debug */,
+				4A0B21541D31E3AA00011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0B215A1D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21551D31E3AA00011E2E /* Debug */,
+				4A0B21561D31E3AA00011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0B215B1D31E3AA00011E2E /* Build configuration list for PBXNativeTarget "Steam Menubar HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B21571D31E3AA00011E2E /* Debug */,
+				4A0B21581D31E3AA00011E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0B20E61D3192D000011E2E /* Project object */;
+}
