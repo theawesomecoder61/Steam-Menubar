@@ -14,3 +14,12 @@ I actually use the taskbar icon whenever I play a Windows game, and I noticed th
 - small file size
 - looks great on Yosemite and El Capitan, regardless of the menubar theme
 - open-source under the MIT license
+
+## Requires
+- Mac OS X 10.9 Mavericks
+- Mac OS X 10.10 Yosemite
+- Mac OS X 10.11 El Capitan
+- or newer!
+
+## [Download here](https://github.com/theawesomecoder61/Steam-Menubar/releases)
+Click the link above to go to the downloads page.
