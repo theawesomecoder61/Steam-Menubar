@@ -13,7 +13,13 @@ I actually use the taskbar icon whenever I play a Windows game, and I noticed th
 - completely native UI
 - small file size
 - looks great on Yosemite and El Capitan, regardless of the menubar theme
-- open-source under the MIT license
+
+## Screenshots
+### Steam on Windows
+![Steam on Windows](http://tac61.weebly.com/uploads/1/3/4/0/13407148/a_orig.png)
+
+### Steam Menubar on Mac OS X 10.11
+![Steam Menubar on Mac OS X 10.11](http://tac61.weebly.com/uploads/1/3/4/0/13407148/screen-shot-2016-07-09-at-11-32-41-pm_orig.png)
 
 ## Requires
 - Mac OS X 10.9 Mavericks
