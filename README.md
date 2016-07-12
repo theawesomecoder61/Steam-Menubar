@@ -37,7 +37,7 @@ I actually use the taskbar icon whenever I play a Windows game, and I noticed th
 1. Open the Steam Menubar
 2. Click *Preferences* or push *Command+Comma*
 3. Click and drag any menu item
-or ![click here to watch a GIF](https://dl.dropboxusercontent.com/s/avvr09f81v7atw0/70290214-D597-4D54-BDCA-A3ADD06A2C15-1642-0000050056AE9188.gif?dl=0) on how to do so.
+or ![click here to watch a GIF](http://i.imgur.com/gIGBAcA.gifv) on how to do so.
 
 ## Screenshots
 ### Steam on Windows
