@@ -1,5 +1,5 @@
 # Steam Menubar
-Steam on Mac OS X has its own taskbar (menubar) icon, just like Windows!
+An unofficial taskbar (menubar) menu for Steam on Mac OS X, just like Windows!
 
 ## Why do the Windows gamers get all the fun?
 Valve probably never considered about giving the Mac version of Steam a taskbar (or menubar) icon like what they did for the Windows version. This also could be because Windows is a much more popular platform.
