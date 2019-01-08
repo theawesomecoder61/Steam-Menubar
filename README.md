@@ -47,10 +47,7 @@ or ![click here to watch a GIF](http://i.imgur.com/gIGBAcA.gifv) on how to do so
 ![Steam Menubar on Mac OS X 10.11](http://tac61.weebly.com/uploads/1/3/4/0/13407148/screen-shot-2016-07-09-at-11-32-41-pm_orig.png)
 
 ## Requires
-- Mac OS X 10.9 Mavericks
-- Mac OS X 10.10 Yosemite
-- Mac OS X 10.11 El Capitan
-- or newer!
+- Mac OS X/macOS 10.9+
 
 ## [Download here](https://github.com/theawesomecoder61/Steam-Menubar/releases)
 Click the link above to go to the downloads page.
